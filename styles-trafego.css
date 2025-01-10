@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff4e6; /* Fundo com tom laranja claro */
+    color: #003366; /* Azul escuro */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff6600; /* Laranja brilhante */
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+}
+
+header .logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Seções principais */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ff6600; /* Laranja brilhante */
+    border-radius: 8px;
+    background: white;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff6600; /* Laranja brilhante */
+    margin-bottom: 10px;
+}
+
+section ul, section ol {
+    margin: 10px 0 10px 20px;
+}
+
+section ul li, section ol li {
+    margin-bottom: 8px;
+}
+
+/* Link */
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366; /* Azul escuro */
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff6600; /* Laranja brilhante */
+    color: white;
+    margin-top: 20px;
+}

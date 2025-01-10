@@ -1,0 +1,131 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho com logo */
+header {
+    background-color: #ff6600; /* Laranja brilhante */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 160px; /* Ajuste o tamanho do logo conforme necessário */
+}
+
+/* Seções do conteúdo */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #ff6600; /* Laranja brilhante */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+section h2, section h3 {
+    color: #ff6600; /* Laranja brilhante */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section ul, section ol {
+    padding-left: 20px;
+}
+
+section ul li, section ol li {
+    margin-bottom: 10px;
+}
+
+/* Isolando a seção de email de candidatura */
+section.email-candidatura {
+    border: 2px solid #ff6600; /* Laranja brilhante */
+    padding: 20px;
+    background-color: #fff4e6; /* Fundo suave para destacar */
+    text-align: center;
+    animation: pulse 2s infinite; /* Animação de destaque */
+}
+
+section.email-candidatura p {
+    font-size: 18px;
+    color: #003366; /* Azul escuro muito escuro */
+}
+
+/* Seção de Contato WhatsApp */
+section.contato-whatsapp {
+    border: 2px solid #ff6600; /* Laranja brilhante */
+    padding: 20px;
+    background-color: #fff4e6; /* Fundo suave para destacar */
+    text-align: center;
+    animation: pulse 2s infinite; /* Animação de destaque */
+}
+
+section.contato-whatsapp p {
+    font-size: 18px;
+    color: #003366; /* Azul escuro muito escuro */
+}
+
+/* Animação de destaque para as seções de e-mail e WhatsApp */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 102, 0, 0.7);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 102, 0, 1);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 102, 0, 0.7);
+    }
+}
+
+/* Links e Botões */
+a {
+    color: #ff6600; /* Laranja brilhante */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366; /* Azul escuro muito escuro */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #ff6600; /* Laranja brilhante */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #003366; /* Azul escuro muito escuro */
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth; /* Efeito de scroll suave */
+}
+
+/* Estilo para os links de e-mail */
+a {
+    color: #ff6600; /* Laranja brilhante */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366; /* Azul escuro muito escuro */
+}
